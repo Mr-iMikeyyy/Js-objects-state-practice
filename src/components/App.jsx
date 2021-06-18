@@ -12,8 +12,7 @@ function App() {
     const inputName = event.target.name;
     setContact((prevValue) => {
       if (inputName === "fName") {
-        return 
-        {
+        return {
           fName: newValue,
           lName: prevValue.lName,
           email: prevValue.email
